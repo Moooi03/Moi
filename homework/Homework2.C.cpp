@@ -1,49 +1,71 @@
-#include<stdio.h>                        ///Raúl Chavez explain me//
-#include<math.h>
-#define K 13                             ///https://www.youtube.com/watch?v=RFVJHeDL9LA&t=611s (VIDEO WITH THE IDEA OF K PRIME NUMBERS DECIMALS)///
+#include <stdio.h>
+#include <math.h>
+#define numOfBits(x) log10(x)/log10(2)	// number of bits
 
-void prime(int n);                        
-void binary(int d);                      ///TRANSFORM ALL THE FIRST K NUMBERS INTO BINARY///
-int main() {
 
-  prime(K); 
-  return 0;
+void convertArray(int array[], int num){  //convert to binary
+	int bits = numOfBits(array[num-1]);
+	int arr[100];
+	for(int i=0;i<num;i++){
+		int stock = 0;
+		int aux = 0;
+		for(int j=bits; j>=0; j--){
+			if(stock<array[i]){
+				if(stock+pow(2,j)>array[i]){
+					arr[aux]=0;
+				} else{
+					arr[aux] = pow(2,j)>array[i] ? 0 : 1;
+					if (arr[aux]==1){
+						stock+=pow(2,j);
+					} else{
+					   stock+=0;
+					}
+				}
+			} else{
+				arr[aux] = 0;
+			}
+			aux++;
+		}
+		printf("\n");
+		for(int i=0;i<aux;i++){			//print in binary
+			printf("%d",arr[i]);
+		}
+	}
 }
-void binary(int t)
-{
-    int i=0; 
-    int base[10]={0};
-    while(t>0)
-    {
-    base[i]= t%2;
-	t/=2; 
-	++i; 
-    }
-   
-    for(int x=9;x>=0;--x)   
-    {
-       printf("%01d",base[x]);
-    }
-     printf("\n");
-}
-void prime(int k)
-{
-  int count, i, flag, sr;
-  int n=1;
-  count = 1;
-  while(count <= k){
-    sr = sqrt(n);
-    flag = 0; 
-    for(i=2; i<= sr; i++){
-      if(n%i==0){
-        flag = 1; 
-        break;
-      }
-    }
-    if(flag==0){ 
-      binary(n); 
-      count++; 
-    }
-    n++; 
-  }
+
+int main(){
+	int n, j=1;
+	int arr[100];
+	printf("Enter number of digits to know: ");
+	scanf("%d",&n);
+
+	while (n<0)	{
+		printf("Please try again, with a positive number: ");
+		scanf("%d",&n);
+	}
+
+	for(int i=0;i<n;){	//prime numbers
+		int k = 1;
+		int divisores = 0;
+
+		if (j==1)
+			divisores++;
+
+		for(int k =1; k<=j; k++) { //search prime numbers
+			if(j%k==0 | j==1)
+				divisores++;
+		}
+
+		if(divisores == 2){
+			arr[i] = j;
+			i++;
+		}
+		j++;
+	}
+
+	for(int i=0;i<n;i++){    // print decimal prime numbers
+		printf("%d ", arr[i]);
+	}
+
+	convertArray(arr, n);   //convert to binary 2.0
 }
