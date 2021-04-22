@@ -192,7 +192,7 @@ int noHayCasillasSinAbrir(char tablero[FILAS][COLUMNAS]) {
 }
 
 int main() {
-  printf("** Minesweeper **\nBy Emilio Gonzalez\n");
+  printf("** Minesweeper *");
   char tablero[FILAS][COLUMNAS];
   int deberiaMostrarMinas = 0;
   srand(getpid());
