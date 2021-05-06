@@ -1,7 +1,7 @@
-// base`d on raul`s code ; para compilar el trabajo lo que vas a hacer es poner primero el main.c en tu compilador web, seguido del registro.h 
-depues de eso hay que crear 5 archivos mas con "cntrl + m" con los siguientes nombres:  sistema.txt, entradas.txt, horario.txt, reporte.txt, salidas.txt;
-estos ultimos 5 archivos estaran en blanco, y al correr el programa se iran llenando automaticamente sigas el programa.
-Todo lo realizado en el programa se iran guardando en los archivos con terminacion ".txt"//
+// based on raul`s code ; para compilar el trabajo lo que vas a hacer es poner primero el main.c en tu compilador web, seguido del registro.h 
+//depues de eso hay que crear 5 archivos mas con "cntrl + m" con los siguientes nombres:  sistema.txt, entradas.txt, horario.txt, reporte.txt, salidas.txt;
+//estos ultimos 5 archivos estaran en blanco, y al correr el programa se iran llenando automaticamente sigas el programa.
+//Todo lo realizado en el programa se iran guardando en los archivos con terminacion ".txt"//
 
 #include <stdlib.h>
 #include <time.h>
