@@ -1,0 +1,2 @@
+/este espacio se mantendra en blanco hasta el momento en que el prorgrama sea ejecutado y se vayan colocando datos respectivamente
+de cualquier forma el archivo tiene que ser creado antes de que se ejecute el programa para que pueda funcionar.//
