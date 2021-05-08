@@ -1,8 +1,8 @@
 //este es un juego simple donde el codigo, mediante preguntas y por el intento y error, va  atratar de adivinar en que animal estas pensando
-empezando con la base de un caballo, cada vez que el codigo se equivoque te ira pidiendo que coloques preguntas para identificar
-al verdadero animal en el cual estas pensando, las respuestsa solo seran de si o no, y entre mas juegues mas informacion tendra el programa;
-la informacion se ira recopilando en un archivo con nombre "data.pan", este archivo estara en blanco, se podria decir que es un akinator 2.0
-pero con animales.//
+//empezando con la base de un caballo, cada vez que el codigo se equivoque te ira pidiendo que coloques preguntas para identificar
+//al verdadero animal en el cual estas pensando, las respuestsa solo seran de si o no, y entre mas juegues mas informacion tendra el programa;
+//la informacion se ira recopilando en un archivo con nombre "data.pan", este archivo estara en blanco, se podria decir que es un akinator 2.0
+//pero con animales.//
 
 #include <stdio.h>
 #include <string.h>
