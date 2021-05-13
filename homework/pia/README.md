@@ -12,7 +12,7 @@ what differentiates one animal from the other,here it is like the homework of th
               NO |       | YES
                  |       |
     	+-----------+ +--------------+
-   	| Animal 1  + | Nuevo Animal +
+   	 | Animal 1  + | Nuevo Animal +
          +-----------+ +--------------+
          b) if Resp = NO
                +-----------+
@@ -21,7 +21,7 @@ what differentiates one animal from the other,here it is like the homework of th
              YES |       | NO
                  |       |
     	+-----------+ +--------------+
-   	| Animal 1  + | Nuevo Animal +
+   	 | Animal 1  + | Nuevo Animal +
          +-----------+ +--------------+
  
  The longer you play, the program would have more information about different animals, of course all depends on the player to put the questions correctly,
