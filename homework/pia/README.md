@@ -6,22 +6,22 @@ it woul ask you, in wich one, after that the program would ask you to mention a 
 what differentiates one animal from the other,here it is like the homework of the structure of tree type, it would be like:
 
          a) if Resp = SI
-         		+-----------+
+               +-----------+
          P-->  | Pregunta  +
                +-----------+
               NO |       | YES
                  |       |
-    		+-----------+ +--------------+
-   		| Animal 1  + | Nuevo Animal +
+    	+-----------+ +--------------+
+   	| Animal 1  + | Nuevo Animal +
          +-----------+ +--------------+
          b) if Resp = NO
-         		+-----------+
+               +-----------+
          P-->  | Pregunta  +
                +-----------+
              YES |       | NO
                  |       |
-    		+-----------+ +--------------+
-   		| Animal 1  + | Nuevo Animal +
+    	+-----------+ +--------------+
+   	| Animal 1  + | Nuevo Animal +
          +-----------+ +--------------+
  
  The longer you play, the program would have more information about different animals, of course all depends on the player to put the questions correctly,
