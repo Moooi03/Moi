@@ -11,6 +11,7 @@ it would ask you in wich one, after that the program would ask you to mention a 
 what differentiates one animal from the other.
 
 ### How it works 2.0
+Code Blocks (Preformatted text):
 
 Si Resp = SI
                +-----------+
