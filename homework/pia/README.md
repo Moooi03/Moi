@@ -10,7 +10,7 @@ it will say that if the animal taht you are thinking about is a horse, that is t
 it would ask you in wich one, after that the program would ask you to mention a question, with only yes/no answer, to to identify 
 what differentiates one animal from the other.
 
-### you had to continue playin as long as you can
+#### you had to continue playin as long as you can
 
  The longer you play, the program would have more information about different animals, of course all depends on the player to put the questions correctly,
  because the program is just learning from the player, so if you continue playing it would be a moment where the program would guess correctly the animal
@@ -19,7 +19,7 @@ what differentiates one animal from the other.
 The data will be recovered in an archive named "data.pan", this archive in my github is in blank, but while you play it will be 
 completing by itself.
 
-# link to the youtube demostration
+## link to the youtube demostration
 
 https://youtu.be/ghYHDKISwr0m
 
