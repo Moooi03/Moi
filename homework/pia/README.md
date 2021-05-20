@@ -13,23 +13,23 @@ what differentiates one animal from the other.
 ### How it works 2.0
 
 Si Resp = SI
-         		    +-----------+
+               +-----------+
          P-->  | Pregunta  +
                +-----------+
               NO |       | SI
                  |       |
-    		+-----------+ +--------------+
-   		| Animal 1  + | Nuevo Animal +
+    	+-----------+ +--------------+
+   	| Animal 1  + | Nuevo Animal +
       +-----------+ +--------------+
          b) Si Resp = NO
-         	    	+-----------+
+               +-----------+
          P-->  | Pregunta  +
                +-----------+
               SI |       | NO
                  |       |
     	+-----------+ +--------------+
-   		| Animal 1  + | Nuevo Animal +
-     +-----------+ +--------------+
+   	| Animal 1  + | Nuevo Animal +
+         +-----------+ +--------------+
 
 #### you had to continue playin as long as you can
 
