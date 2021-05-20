@@ -10,6 +10,27 @@ it will say that if the animal taht you are thinking about is a horse, that is t
 it would ask you in wich one, after that the program would ask you to mention a question, with only yes/no answer, to to identify 
 what differentiates one animal from the other.
 
+### How it works 2.0
+
+Si Resp = SI
+         		    +-----------+
+         P-->  | Pregunta  +
+               +-----------+
+              NO |       | SI
+                 |       |
+    		+-----------+ +--------------+
+   		| Animal 1  + | Nuevo Animal +
+      +-----------+ +--------------+
+         b) Si Resp = NO
+         	    	+-----------+
+         P-->  | Pregunta  +
+               +-----------+
+              SI |       | NO
+                 |       |
+    	+-----------+ +--------------+
+   		| Animal 1  + | Nuevo Animal +
+     +-----------+ +--------------+
+
 #### you had to continue playin as long as you can
 
  The longer you play, the program would have more information about different animals, of course all depends on the player to put the questions correctly,
