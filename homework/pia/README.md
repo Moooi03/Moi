@@ -27,7 +27,8 @@ https://youtu.be/ghYHDKISwr0m
 
 Well, maybe my code would not be de hardest one to do, but i think that has its complexity level, has everything in order, and it is
 easy to everyone to use it, jsut the video quality could be low, but talking about and the grade, maybe would not be to obtain the 15 points
-but i think that for my effort and because the miss is a very good person, I think I deserve at least 12 points c:
+but i think that for my effort and because the miss is a very good person.
+autoevaluation in discord.
  
 ### Moises Martinez Cerda / 1959595 / IEA
 
